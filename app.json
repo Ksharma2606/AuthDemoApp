@@ -1,0 +1,28 @@
+{
+  "expo": {
+    "name": "AuthDemoApp",
+    "slug": "auth-demo-app",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "scheme": "authdemoapp",
+    "userInterfaceStyle": "light",
+    "platforms": [
+      "ios",
+      "android",
+      "web"
+    ],
+    "ios": {
+      "bundleIdentifier": "com.yourname.authdemoapp",
+      "supportsTablet": true
+    },
+    "android": {
+      "package": "com.yourname.authdemoapp"
+    },
+    "web": {
+      "bundler": "metro"
+    },
+    "plugins": [
+      "expo-asset"
+    ]
+  }
+}
